@@ -1,6 +1,6 @@
 
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109329-1c711d6e-c886-4aec-b98e-1de6b394c2cc.gif">
   <br />
   Game Console Dev Guide
 </h1>
@@ -10,7 +10,7 @@
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109343-3b211c18-8b4b-443f-963b-930cf3fd5c6f.png">
   <br />
 </p>
 
@@ -111,7 +111,7 @@
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109402-2bc80f36-6cb3-4d30-936c-393dccf468c2.gif">
   <br />
   
 </p>
@@ -136,17 +136,16 @@
  - [Tips for developing console games (Xbox, PlayStation, Nintendo)](https://unity.com/how-to/develop-console-video-games-unity)
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109359-bef5dfd3-6c38-4cb0-8a48-ba2145c670fb.png">
   <br />
   Xbox Series X
 </p>
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109363-670074b5-4261-41ca-b02d-c1f99971db76.png">
   <br />
   Xbox Series S
 </p>
-
       
 ## Playstation Development
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
@@ -170,13 +169,13 @@
   - [Tips for developing console games (Xbox, PlayStation, Nintendo)](https://unity.com/how-to/develop-console-video-games-unity)
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109372-7e1dac0a-8df3-4867-a36e-7080e21014a7.png">
   <br />
   PlayStation 5
 </p>
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109375-f189109a-ccf6-47fc-a543-7d1831c3f970.png">
   <br />
   PlayStation 4
 </p>
@@ -212,7 +211,7 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
   - [Tips for developing console games (Xbox, PlayStation, Nintendo)](https://unity.com/how-to/develop-console-video-games-unity)
   
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/158109381-493efc29-3da2-4db8-b772-43cb3ca1f97a.png">
   <br />
   Nintendo Switch
 </p>
@@ -236,6 +235,12 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
 
   - [Tips for developing console games (Xbox, PlayStation, Nintendo)](https://unity.com/how-to/develop-console-video-games-unity)
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158109383-57188374-6632-4ef2-ae58-1d66351b0fa8.png">
+  <br />
+  Steam Deck
+</p>
+
 [Steamworks](https://partner.steamgames.com/doc/home) is a free suite of tools available to any developer to use in their game or software on Steam and the Steam Deck.
 
 [Steam Hardware GitLab Repo](https://gitlab.steamos.cloud/SteamDeck/hardware) is a repository that contains CAD files for the external shell (surface topology) of Steam Deck, under a Creative Commons license. This includes an STP model, STL model, and drawings (DWG) for reference.
@@ -255,12 +260,6 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
 [ReplaySorcery](https://github.com/matanui159/ReplaySorcery) is an open-source, instant-replay solution for Linux.
 
 [Deck Verified](https://www.steamdeck.com/en/verified) is a program that reviews games in Steam's catalog verifying their compatibility with the Steam Deck. So when you visit your Library on Steam Deck, you’ll find a compatibility badge on each title, reflecting the kind of experience you can expect when playing each game on Steam Deck.
-
-<p align="center">
- <img src="">
-  <br />
-  Steam Deck
-</p>
 
 #  Unreal Engine Development
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
