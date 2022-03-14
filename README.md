@@ -24,7 +24,7 @@
       
       - [Nintendo Switch](https://github.com/mikeroyal/Game-Console-Dev-Guide#nintendo-switch-development)
       
-      - [Steam Deck](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck)
+      - [Steam Deck](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck-development)
 
 2. [Getting Started with Unreal Engine](https://github.com/mikeroyal/Game-Console-Dev-Guide#unreal-engine-development)
 
@@ -48,7 +48,7 @@
 
 7. [Game Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#game-development)
 
-8. [Steam Deck Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck-development)
+8. [Steam Deck Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck)
 
 9. [Augmented Reality (AR) & Virtual Reality (VR)](https://github.com/mikeroyal/Game-Console-Dev-Guide#augmented-reality-ar--virtual-reality-vr)
 
