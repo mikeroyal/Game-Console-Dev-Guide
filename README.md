@@ -16,7 +16,7 @@
 
 # Table of Contents
 
-1. [Getting Stated with Game Consoles](https://github.com/mikeroyal/Game-Console-Dev-Guide#)
+1. [Getting Started with Game Consoles](https://github.com/mikeroyal/Game-Console-Dev-Guide#getting-started-with-game-consoles)
 
       - [Xbox](https://github.com/mikeroyal/Game-Console-Dev-Guide#xbox-development)
       
@@ -48,7 +48,7 @@
 
 7. [Game Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#game-development)
 
-8. [Steam Deck Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck-development)
+8. [Steam Deck](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck)
 
 9. [Augmented Reality (AR) & Virtual Reality (VR)](https://github.com/mikeroyal/Game-Console-Dev-Guide#augmented-reality-ar--virtual-reality-vr)
 
@@ -107,14 +107,8 @@
 
 34. [Databases](https://github.com/mikeroyal/Game-Console-Dev-Guide#databases)
 
-# Getting Stated with Game Consoles
+# Getting Started with Game Consoles
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/158109402-2bc80f36-6cb3-4d30-936c-393dccf468c2.gif">
-  <br />
-  
-</p>
 
 ## Xbox Development
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
@@ -291,6 +285,7 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
 </p>
 
 ## Unreal Engine Tools
+[Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) is a complete gameplay scripting system in Unreal Engine based on the concept of using a node-based interface to create gameplay elements from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine.
 
@@ -335,6 +330,7 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
 [Replay System](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/ReplaySystem/) is a tool which can record gameplay for later viewing. This feature is available in all games, from live, multiplayer games played on dedicated servers, to single-player games, and even including Play-In-Editor sessions. At a high level, the Replay system works by using a DemoNetDriver to read data drawn from the built-in replication system, similar to how a NetDriver operates in a live, networked gameplay environment.
 
 ## Unreal Engine Learning Resources
+[Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 [How to migrate your Unreal Engine 4 projects to Unreal Engine 5 Early Access quickly and smoothly](https://docs.unrealengine.com/5.0/en-US/MigrationGuide/)
 
@@ -408,6 +404,7 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
 </p>
 
 ## Unity Tools
+[Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 [Unity Hub](https://unity.com/unity-hub) is a tool that helps manage multiple installations of the Unity Editor, create new projects, and access your work.
 
@@ -487,8 +484,8 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
 
 [Weta Digital](https://www.wetafx.co.nz/) is a digital visual effects company created by [Peter Jackson](https://www.imdb.com/name/nm0001392/). It produced the digital special effects for Heavenly Creatures and the Lord of the Rings. [Unity Technologies acquired Weta Digital in November 2021](https://unity.com/our-company/newsroom/unity-announces-intent-acquire-weta-digital).
 
-
 ## Unity Learning Resources
+[Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 [Unity Knowledge Base](https://support.unity.com/hc/en-us) is a library of articles that helps you troubleshoot common problems, whether it’s creating an account, importing assets, or baking a scene.
 
@@ -956,7 +953,7 @@ Developing with SwiftUI in Xcode 12
 
 [GameBlocks](https://www.gameblocks.com/) is a Server Side Anti-Cheat & Middleware software.
 
-# Steam Deck Development
+# Steam Deck
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 <p align="center">
@@ -3514,8 +3511,8 @@ Unified Memory Architecture
 
 [Remote Direct Memory Access(RDMA)fabrics](https://core.vmware.com/resource/basics-remote-direct-memory-access-rdma-vsphere) is an extenion of the Direct Memory Acces (DMA) technology, which is the ability to access host memory directly without CPU intervention. RDMA allows for accessing memory data from one host to another. A key charateric for RDMA is that it greatly improves throughput and performance because less CPU cycles are needed to process the network packets.
 
-# Fireware Development
-Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
+# Firmware Development
+[Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/126912889-d86e3171-471a-4c05-b6bf-36a70080ab7c.png">
@@ -3552,6 +3549,18 @@ Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-co
 
 ## Firmware Tools, Libraries, and Frameworks
 
+[Heimdall](https://github.com/Benjamin-Dobell/Heimdall) is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung mobile devices.
+
+[Nexmon](https://github.com/seemoo-lab/nexmon) is a C-based firmware patching framework for Broadcom/Cypress WiFi chips that enables you to write your own firmware patches, for example, to enable monitor mode with radiotap headers and frame injection.
+
+[Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit) is a toolkit built in order to help security researchers analyze and identify vulnerabilities in IoT and embedded device firmware. This is built in order to use for the ["Offensive IoT Exploitation"](https://www.attify-store.com/collections/training/products/offensive-iot-exploitation) training conducted by [Attify](https://attify.com/).
+
+[Firmware Analysis and Comparison Tool](https://github.com/fkie-cad/FACT_core) is a tool intended to automate most of the firmware analysis process. It unpacks arbitrary firmware files and processes several analyses. Additionally, it can compare several images or single files.
+
+[Mellanox firmware update and query utility](https://www.mellanox.com/support/firmware/mlxup-mft) is a utility that enables scanning the server machine for available Mellanox adapters and indicates whether firmware update is required for each adapter.
+
+[Mellanox FlexBoot](https://www.mellanox.com/products/adapter-software/flexboot) is a multiprotocol remote boot technology that delivers unprecedented flexibility in how IT Managers can provision or repurpose their datacenter servers. FlexBoot enables remote boot over InfiniBand or Ethernet using Boot over InfiniBand, over Ethernet, or Boot over iSCSI (Bo-iSCSI). Combined with Virtual Protocol Interconnect (VPI) technologies available in ConnectX®-3 and onwards adapters, FlexBoot gives IT Managers the flexibility to deploy servers with one adapter card into InfiniBand or Ethernet networks with the ability to boot from LAN or remote storage targets.
+
 [Coreboot](https://doc.coreboot.org/getting_started/index.html) is a replacement for your BIOS / UEFI with a strong focus on boot speed, security and flexibility. It is designed to boot your operating system as fast as possible without any compromise to security, with no back doors.
 
 [TianoCore](https://www.tianocore.org/) is a community project supporting an open source implementation of the Unified Extensible Firmware Interface (UEFI). EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization (PI) specifications.
@@ -3561,10 +3570,6 @@ Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-co
 [OpenWrt Project](https://openwrt.org/) is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management.
 
 [OpenSK](https://github.com/google/OpenSK) is an open-source implementation for security keys written in Rust that supports both FIDO U2F and [FIDO2](https://fidoalliance.org/fido2/) standards.
-
-[Linux Vendor Firmware Service(LVFS)](https://fwupd.org) is a secure portal which allows hardware vendors to upload firmware updates.
-
-[fwupd](https://github.com/fwupd/fwupd) is a simple daemon to allow session software to update firmware. The goal og project is to make updating firmware on Linux automatic, safe and reliable.
 
 [CHIPSEC](https://chipsec.github.io/) is a framework for analyzing the security of PC platforms including hardware, system firmware (BIOS/UEFI), and platform components. It includes a security test suite, tools for accessing various low level interfaces, and forensic capabilities. It can be run on Windows, Linux, Mac OS X and UEFI shell.
 
@@ -3583,22 +3588,6 @@ Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-co
 [Intel® AI Analytics Toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/ai-analytics-toolkit.html) is a toolkit that helps you achieve end-to-end performance for AI workloads.
 
 [Intel® Distribution of OpenVINO™ Toolkit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) is a toolkit that you help you harness the full potential of AI across multiple Intel® architectures.
-
-[System76 Firmware](https://github.com/pop-os/system76-firmware) is a software package that has a CLI(command-line inferface) tool for installing firmware updates. Also, included is the system76-firmware-daemon package, which has a systemd service that exposes a DBUS API for handling firmware updates.
-
-[Firmware Manager](https://github.com/pop-os/firmware-manager) is a generic framework and GTK UI for firmware updates from [system76-firmware](https://github.com/pop-os/system76-firmware) and [fwupd](https://github.com/fwupd/fwupd), written in Rust.
-
-[Heimdall](https://github.com/Benjamin-Dobell/Heimdall) is a cross-platform open-source tool suite used to flash firmware (aka ROMs) onto Samsung mobile devices.
-
-[Nexmon](https://github.com/seemoo-lab/nexmon) is a C-based firmware patching framework for Broadcom/Cypress WiFi chips that enables you to write your own firmware patches, for example, to enable monitor mode with radiotap headers and frame injection.
-
-[Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit) is a toolkit built in order to help security researchers analyze and identify vulnerabilities in IoT and embedded device firmware. This is built in order to use for the ["Offensive IoT Exploitation"](https://www.attify-store.com/collections/training/products/offensive-iot-exploitation) training conducted by [Attify](https://attify.com/).
-
-[Firmware Analysis and Comparison Tool](https://github.com/fkie-cad/FACT_core) is a tool intended to automate most of the firmware analysis process. It unpacks arbitrary firmware files and processes several analyses. Additionally, it can compare several images or single files.
-
-[Mellanox firmware update and query utility](https://www.mellanox.com/support/firmware/mlxup-mft) is a utility that enables scanning the server machine for available Mellanox adapters and indicates whether firmware update is required for each adapter.
-
-[Mellanox FlexBoot](https://www.mellanox.com/products/adapter-software/flexboot) is a multiprotocol remote boot technology that delivers unprecedented flexibility in how IT Managers can provision or repurpose their datacenter servers. FlexBoot enables remote boot over InfiniBand or Ethernet using Boot over InfiniBand, over Ethernet, or Boot over iSCSI (Bo-iSCSI). Combined with Virtual Protocol Interconnect (VPI) technologies available in ConnectX®-3 and onwards adapters, FlexBoot gives IT Managers the flexibility to deploy servers with one adapter card into InfiniBand or Ethernet networks with the ability to boot from LAN or remote storage targets.
 
 # File systems & Storage
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
