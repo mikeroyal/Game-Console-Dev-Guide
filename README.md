@@ -5,6 +5,9 @@
   Game Console Dev Guide
 </h1>
 
+ <a href="https://github.com/mikeroyal?tab=followers">
+         <img alt="followers" title="Follow me for Updates" src="https://custom-icon-badges.demolab.com/github/followers/mikeroyal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 	
+
 #### A guide covering Game Console Development including the applications, libraries and tools that will make you a better and more efficient Game Console Developer.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
