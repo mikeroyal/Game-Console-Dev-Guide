@@ -28,6 +28,8 @@
       - [Nintendo Switch](https://github.com/mikeroyal/Game-Console-Dev-Guide#nintendo-switch-development)
       
       - [Steam Deck](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck-development)
+        
+      - [Apple Silicon](#development-on-apple-silicon)
 
 2. [Getting Started with Unreal Engine](https://github.com/mikeroyal/Game-Console-Dev-Guide#unreal-engine-development)
 
@@ -246,7 +248,7 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
 
 [Gamescope](https://github.com/Plagman/gamescope) is a SteamOS session micro-compositing window manager formerly known as [steamcompmgr](https://github.com/ValveSoftware/steamos-compositor).
 
-[AMD FidelityFX Super Resolution (FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx) is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. It uses a collection of cutting-edge Deep Learning algorithms with a particular emphasis on creating high-quality edges, giving large performance improvements compared to rendering at native resolution directly. FSR enables “practical performance” for costly render operations, such as hardware ray tracing for the AMD RDNA™ and AMD RDNA™ 2 architectures.
+[AMD FidelityFX Super Resolution (FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx) is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. FSR enables “practical performance” for costly render operations, such as hardware ray tracing for the AMD RDNA™ and AMD RDNA™ 2 architectures.
 
 [MangoHud](https://github.com/flightlessmango/MangoHud) is a Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 
@@ -255,6 +257,457 @@ PlayStation VR 2 Headset. Source: [PlayStation](https://www.playstation.com/en-u
 [ReplaySorcery](https://github.com/matanui159/ReplaySorcery) is an open-source, instant-replay solution for Linux.
 
 [Deck Verified](https://www.steamdeck.com/en/verified) is a program that reviews games in Steam's catalog verifying their compatibility with the Steam Deck. So when you visit your Library on Steam Deck, you’ll find a compatibility badge on each title, reflecting the kind of experience you can expect when playing each game on Steam Deck.
+
+# Development on Apple Silicon
+
+[Back to the Top](#table-of-contents)
+
+<h1 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/36783762-b5f9-4a8d-bec8-a4a261ccdd20">
+  <br />
+</h1>
+
+**Note:** Learn more about [Apple Silicon here](https://github.com/mikeroyal/Apple-Silicon-Guide)
+
+**Quick Links to Developer Resources**
+
+ * [AR Creation Tools - Augmented Reality | Apple Developer](https://developer.apple.com/augmented-reality/tools/)
+ * [Augmented Reality applications | Apple](https://www.apple.com/augmented-reality/)
+ * [Unity's Beta Program for Creating Spatial Experiences](https://create.unity.com/spatial)
+ * [Unity Learn Training Program](https://learn.unity.com)
+ * [Unity Manual: XR](https://docs.unity3d.com/Manual/XR.html)
+ * [Intro to XR: VR, AR, and MR Foundations - Unity Learn](https://learn.unity.com/course/introduction-to-xr-vr-ar-and-mr-foundations)
+ * [Unity XR: Build VR and AR Apps](https://unity3d.com/learn/unity-xr-apps)
+
+## Tools and Frameworks
+
+[Back to the Top](#table-of-contents)
+
+ * [Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083/) is a tool that let's you discover how to easily compose, edit, and preview 3D content with Reality Composer Pro. Follow along as you explore this developer tool by setting up a new project, composing scenes, adding particle emitters and audio, and even previewing content on your device. 
+ * [Reality Composer](https://developer.apple.com/augmented-reality/tools/) is a powerful tool that makes it easy for you to create interactive augmented reality experiences with no prior 3D experience. The Reality Converter quickly converts your existing 3D models to [USDZ](https://graphics.pixar.com/usd/files/USDZFileFormatSpecification.pdf) so it works seamlessly in our tools and on all AR-enabled iPhone and iPad devices.
+ * [Apple Vision](https://developer.apple.com/documentation/vision) is a framework that performs face and face landmark detection, text detection, barcode recognition, image registration, and general feature tracking. Vision also allows the use of custom Core ML models for tasks like classification or object detection.
+ * [Metal shader converter](https://developer.apple.com/metal/shader-converter/) is a tool that converts shader intermediate representations in LLVM IR bytecode into bytecode suitable to be loaded into Metal. It’s available as a library and a standalone executable. All the functionality exposed through the library interface is available via the standalone executable.
+ * [USDZ](https://graphics.pixar.com/usd/release/spec_usdz.html) is a file format that contains a 3D scene or object saved in the USDZ Universal format, which is developed by Apple and Pixar Animation Studios. It is an uncompressed and unencrypted .ZIP archive that stores a Universal Scene Description (.USD, USDA, or USDC) file, which includes 3D geometry and shading data. USDZ files may also contain .PNG and .JPEG image textures and .M4A, .MP3, or .WAV audio files utilized in the 3D object or scene.
+ * [ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
+ * [RealityKit](https://developer.apple.com/documentation/realitykit) is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.
+ * [RealityUI](https://github.com/maxxfrazer/RealityUI) is a Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene. 
+ * [SceneKit](https://developer.apple.com/scenekit/) is a high-level 3D graphics framework that helps you create 3D animated scenes and effects in your iOS apps.
+ * [SwiftUI](https://developer.apple.com/documentation/swiftui) is a user interface toolkit that provides views, controls, and layout structures for declaring your app's user interface. The SwiftUI framework provides event handlers for delivering taps, gestures, and other types of input to your application.
+ * [UIKit](https://developer.apple.com/documentation/uikit) is a framework provides the required infrastructure for your iOS or tvOS apps. It provides the window and view architecture for implementing your interface, the event handling infrastructure for delivering Multi-Touch and other types of input to your app, and the main run loop needed to manage interactions among the user, the system, and your app.
+ * [SpriteKit](https://developer.apple.com/documentation/spritekit) is a general-purpose framework for drawing shapes, particles, text, images, and video in two dimensions. It leverages Metal to achieve high-performance rendering, while offering a simple programming interface to make it easy to create games and other graphics-intensive apps. 
+ * [MetalFX](https://developer.apple.com/videos/play/wwdc2022/10103/) is a new API that provides platform optimized graphics effects for Metal applications. With MetalFX Upscaling, your application can now render frames at a lower resolution, reducing rendering time, without compromising rendering quality. We'll also show you how and when to use its two effects: spatial upscaling, which delivers substantial performance gains, and temporal AA and upscaling, which delivers the highest quality rendering.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/172254747-9308be59-4d79-4677-a5ec-cf40f5762cf7.png">
+  <br />
+ MetalFX Rendering. Image Credit: Apple
+</p>
+
+ * [Apple Core Animation Framework](https://developer.apple.com/documentation/quartzcore) is a graphics rendering and animation infrastructure that provides high frame rates and smooth animations without burdening the CPU and slowing down your app.
+ * [Apple Core Graphics Framework](https://developer.apple.com/documentation/coregraphics) is a framework based on the Quartz advanced drawing engine. It provides low-level, lightweight 2D rendering with unmatched output fidelity.
+ * [GPUImage3](https://github.com/BradLarson/GPUImage3) is the third generation of the [GPUImage framework](https://github.com/BradLarson/GPUImage), an open source project for performing GPU-accelerated image and video processing on Mac and iOS. This third generation is redesigned to use **[Apple's Metal](https://developer.apple.com/metal/) in place of OpenGL**.
+
+
+## Game Porting Toolkit
+
+[Back to the Top](#table-of-contents)
+
+<h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/375b3bc6-3a9a-4a71-90a1-8181254260ff">
+  <br />
+ 
+</h3>
+
+[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat([Easy Anti-Cheat](https://www.easy.ac/) and [BattleEye](https://www.battleye.com/)) or aggressive [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work.
+
+ * The Game Porting Toolkit builds a [dxil](https://github.com/Microsoft/DirectXShaderCompiler/blob/main/docs/DXIL.rst) to [metallib](https://developer.apple.com/documentation/metal) converter and DirectX11/DirectX12 to Metal runtime translator. Non-graphics APIs are translated by Wine and do not use any tech from [moltenVK](https://github.com/KhronosGroup/MoltenVK), [DXVK](https://github.com/doitsujin/dxvk); or [SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross). The Metal shader converter can be shipped by games and can be used in the game developer asset pipelines.
+ 
+ * [Metal shader converter](https://developer.apple.com/metal/shader-converter/) is a tool that converts shader intermediate representations in LLVM IR bytecode into bytecode suitable to be loaded into Metal. It’s available as a library and a standalone executable. All the functionality exposed through the library interface is available via the standalone executable.
+
+[![Game Porting Toolkit gets a BIG SURPRISE update! | Andrew Tsai](https://ytcards.demolab.com/?id=Nl12azxMbFc&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit gets a BIG SURPRISE update! | Andrew Tsai")](https://www.youtube.com/watch?v=Nl12azxMbFc)
+[![The Mac gaming DirectX 12 Revolution is NOW!](https://ytcards.demolab.com/?id=CcYyvzHtJVM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "The Mac gaming DirectX 12 Revolution is NOW!")](https://www.youtube.com/watch?v=CcYyvzHtJVM)
+[![Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide](https://ytcards.demolab.com/?id=jUvDPCxkHIU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide")](https://www.youtube.com/watch?v=jUvDPCxkHIU)
+
+**Working Games:**
+
+ * **[ALL WORKING GAMES LIST (Game Porting Toolkit = Windows DX12 Latest Games for Apple Silicon)](https://docs.google.com/spreadsheets/d/1t_E04Qt411f9mEZJVku_OJsEe6XCqZZsdqtjVaMCcgk/edit?usp=sharing)**
+
+ *  Cyberpunk 2077
+ *  Elden Ring  
+ *  Diablo IV 
+ *  Hogwarts Legacy
+ *  Crysis Remastered
+ *  Cuphead
+ *  Halo 3 (No Online due to Easy Anti-Cheat Compatibility)
+ *  Metal Gear Solid V: The Phantom Pain
+ *  Final Fantasy VII Remake Intergrade (~50 FPS on High settings at 1080p with M1 Pro.)
+ *  God of War (Works somewhat well on M1 Pro (16gb), wouldn't recommend lesser hardware.)
+ *  Deep Rock Galactic
+ *  Sonic Omens
+ *  Sonic P-06
+ *  Scarlet Nexus
+ *  Dyson Sphere Program (some objects and main character weren't visible before)
+ *  Derail Valley (good performance, no missing manuals, and in-game objects for train operation like on CrossOver)
+ *  Spider-Man (2018)
+ *  Spider-Man Miles Morales - requires Windows version fix.
+ *  Warframe - To get installer/launcher working add dwrite (disabled) to library overrides in winecfg.
+ *  QUBE 2
+ *  Deceive Inc. - works well if launched without EAC.
+ *  Risk of Rain 2 (does not require `-disable-gpu-skinning` like Crossover 22.)
+ *  Tetris Effect: (Connected - Game window doesn't like retina mode, works otherwise.)
+ *  Bloodstained: Ritual of the Night
+ 
+### System Requirements
+ 
+   * macOS Sonoma should be used, currently it is in beta. 
+   * macOS Ventura causes large numbers of issues with steamwebhelper.exe crashing so it isn't recommended, use the macOS Sonoma beta.
+   * [Visit Apple Developer Downloads site](https://developer.apple.com/downloads), these files are now free to download use for any logged in Apple account.
+       - Search for Command Line Tools for Xcode 15 beta and download the dmg file, then install it.
+       - If you have an old version Xcode installed, remove it.
+       - Search for Game Porting Toolkit and download it. Open the dmg file and then run the pkg.
+       
+### Using Homebrew
+
+**Note:** if you have ever installed Homebrew before, then it is advisable to remove arm64 Homebrew as this can interfere with this build process. Either use a Homebrew uninstall script or delete the folder ```/opt/homebrew/bin```.
+
+Open Terminal (search in Spotlight on macOS).
+
+**Install Rosetta:**
+
+```softwareupdate --install-rosetta```
+
+Enter an x86_64 shell to continue the following steps in a Rosetta environment. All subsequent commands should be run within this shell.
+
+```arch -x86_64 zsh```
+
+Install the x86_64 version of Homebrew if you don't already have it.
+
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+**Make sure the brew command is on your path:**
+
+```which brew```
+
+**If this command does not print ```/usr/local/bin/brew```, you should use this command:**
+
+```export PATH=/usr/local/bin:${PATH}```
+
+### Build 
+
+**Run this command to download Apple tap:**
+
+```brew tap apple/apple http://github.com/apple/homebrew-apple```
+
+Install the game-porting-toolkit formula. This formula downloads and compiles several large software projects. How long this takes will depend on the speed of your computer. It can take over 1 hour to complete depending on the speed of your Mac.
+
+```brew -v install apple/apple/game-porting-toolkit```
+
+If during installation you see an error such as “Error: game-porting-toolkit: unknown or unsupported macOS version: :dunno”, your version of Homebrew doesn’t have macOS Sonoma support. Update to the latest version of Homebrew and try again.
+
+```brew update brew -v install apple/apple/game-porting-toolkit```
+
+### Wine prefix 
+
+A Wine prefix contains a virtual C: drive. You will install the toolkit and your game into this virtual C: drive. Run the following command to create a new Wine prefix named my-game-prefix in your home directory.
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 winecfg```
+
+   * A “Wine configuration” window should appear on your screen.
+   * Change the version of Windows to Windows 10.
+   * Choose Apply and then OK to exit winecfg.
+
+If the “Wine configuration” window does not appear, and no new icon appears in the Dock, verify that you have correctly installed the x86_64 version of Homebrew as well as the game-porting-toolkit formula.
+
+**Preparing the toolkit**
+
+Make sure the Game Porting Toolkit dmg downloaded earlier is mounted at ```/Volumes/Game Porting Toolkit-1.0```. Use this script to copy the Game Porting Toolkit library directory into Wine’s library directory.
+
+```ditto /Volumes/Game\ Porting\ Toolkit-1.0/lib/ `brew --prefix game-porting-toolkit`/lib/```
+
+**Put the 3 scripts from the Game Porting Toolkit DMG into here /usr/local/bin using this command:**
+
+```cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin```
+
+### Steam install
+
+<h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7c41f9fc-6195-44ac-9398-d1d32da78749">
+  <br />
+ 
+</h3>
+
+Go to Steam website and download the Windows version of [Steam](https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe) and place in your Downloads folder.
+
+**Install Steam**
+
+```gameportingtoolkit ~/my-game-prefix ~/Downloads/SteamSetup.exe```
+
+**Run Steam**
+
+```gameportingtoolkit ~/my-game-prefix 'C:\Program Files (x86)/Steam/steam.exe'```
+
+Log into Steam A common issue is that Steam will present with a blank black window.
+
+Alternate way of launching Steam (after installing):
+
+```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
+
+If this continues then close the Terminal window and then re-open and try again, repeat until the login screen opens. Now you should be able to download and launch Windows games through Steam.
+
+## Epic/Heroic Games and GOG support
+
+<h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/992edc00-18e8-4f51-ab7b-0f047ffb6f84">
+  <br />
+ 
+</h3>
+
+This is particularly useful because as it currently, the real Epic Games Launcher fails to install under the Game Porting Toolkit. Heroic supports Epic and GOG.com games.
+
+   * Install the native [macOS Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases) or from Homebrew.
+   * Open Heroic, and log into your Epic Games and/or GOG.com account.
+   * Go to the "Wine Manager" and install a numbered version of Wine, such that it won't auto update- we are going to modify it. 
+   * At the time of writing this, the newest numbered version of Wine-Crossover is ```Wine-Crossover-Wine-22.1.0```
+   * Press the folder icon that appears after installing it to open the directory containing Heroic's Wine installations.
+   * Right-click on the version of Wine you just installed and press "Show Package Contents".
+   * Open this directory in the Terminal.
+       * If you have **"OpenInTerminal"** this is one button, otherwise press **"Show Path Bar"** and navigate where it says with **"cd"**.
+       * It should be something like ```cd ~/Library/Application\ Support/heroic/tools/wine/Wine-crossover-wine-22.1.0```.
+
+   ```cd Contents/MacOS```
+
+   **Remove the existing Wine:**
+
+   ```rm wine```
+
+  ###  Create a symlink to Game Porting Toolkit's Wine
+        
+   **If using Game Porting Toolkit Wineprefix:**
+
+   ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit`/bin/wine64 wine```
+
+   **If using Whisky:**
+
+   ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
+      
+   ``` cd ../Resources```
+
+  **Remove the existing Wine:**
+
+  ```rm -rfv wine```
+
+   ### Create a symlink to Game Porting Toolkit's Wine
+    
+   **If using Game Porting Toolkit Wineprefix:**
+
+   ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit` wine```
+
+   **If using Whisky:**
+
+   ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine wine```
+
+   * You are now done with Terminal. Install any games you want to try playing.
+   * Select the game you want to play, and press the settings button in the top-right.
+   * Make sure the version of Wine you just downloaded and modified is selected.
+   * Make sure your Game Porting Toolkit Wine Prefix is selected. If you followed Apple's guide this is ```/Users/you/my-game-prefix```.
+   * If you Open the "Other" section you can also add any environment variables you want like ```WINEESYNC=1"``` and ```"MTL_HUD_ENABLED=1"```
+   * Close the settings and try running the game.
+ 
+ 
+## Battle.net
+
+<h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fc90046c-797d-47cb-9073-25af1d847660">
+  <br />
+ 
+</h3>
+
+Please download the [Windows version of Battle.net](https://download.battle.net/en-gb/?platform=windows).
+
+**Make a new Wineprefix for Battle.net - we will refer to this as battle-net from now:**
+
+```WINEPREFIX=~/battle-net `brew --prefix game-porting-toolkit`/bin/wine64 winecfg```
+
+  *  A “Wine configuration” window should appear on your screen.
+  *  Change the version of Windows to Windows 10.
+  *  Choose Apply and then OK to exit winecfg.
+
+Run Battle.net launcher
+
+```gameportingtoolkit ~/battle-net ~/Downloads/Battle.net-Setup.exe```
+
+Please be aware that there is an issue launching Battle.net once installed, the only current way to re-login is to 'install' the launcher again.
+
+Start individual game without the launcher using this command:
+
+```arch -x86_64 gameportingtoolkit-no-hud ~/battle-net 'C:\Program Files (x86)\Diablo IV\Diablo IV Launcher.exe'```
+
+### Launching individual game
+
+Open your Wine prefix’s virtual C: drive in Finder ```(open ~/my-game-prefix/drive_c)``` and copy your game into an appropriate subdirectory.
+
+**A. Standard launching**
+
+```gameportingtoolkit ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+This launches the given Windows game binary with a visible extended Metal Performance HUD and filters logging to output from the Game Porting Toolkit.
+
+**B. Launching without a HUD**
+
+```gameportingtoolkit-no-hud ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+**C. Launching with Wine ESYNC disable**
+
+```gameportingtoolkit-no-esync ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+### Logging 
+
+The provided ```bin/gameportingtoolkit*``` scripts can be copied onto your path to facilitate different forms of logging and launching. You can run these scripts from any shell; you don’t need to switch to the Rosetta environment first.
+
+Logging output will appear in the Terminal window in which you launch your game as well as the system log, which can be viewed with the Console app found in Applications ▸ Utilities. Log messages from the Game Porting Toolkit are prefixed with D3DM. By default the gameportingtoolkit* scripts will filter to just the D3DM-prefixed messages.
+Troubleshooting • Link
+
+### Steam login black screen
+
+Close the Terminal window and then reopen and retry the command, repeat several times.
+
+Alternate way of launching Steam (after installing):
+
+```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=<path to the Wine bottle you set up> /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
+
+If still not working then try using CrossOver and create a Steam bottle, then redirect this WINEPREFIX to that bottle:
+
+```WINEPREFIX="/Users/[username]/Library/Application Support/CrossOver/Bottles/Steam/"```
+
+**Steam crashes straight after opening:** Disconnect any external monitors.
+
+**Battle.net launcher won't re-launch:** Re-install the launcher to reopen, no other fix at the moment.
+
+Game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f```
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuildNumber /t REG_SZ /d 19042 /f```
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver -k```
+
+**steamwebhelper.exe crashes**
+
+This is caused by Steam being run through macOS Ventura or below, upgrade to macOS Sonoma.
+
+**Game won't run and crashes with an invalid instruction**
+
+**Invalid instruction** crashes are often (but not always) caused when Rosetta 2 is unable to translate AVX/AVX2 instructions. You may be able to recompile a version of your game without AVX/AVX2 instructions in order to evaluate its potential on Apple Silicon with the Game Porting Toolkit when you hit this error. When porting your code natively to Apple Silicon, NEON instructions are a high-performance replacement for AVX/AVX2.
+
+**Game won't run because its anti-cheat or DRM software is incompatible with Wine translation.**
+
+You may be able to rebuild a custom version of your game in your Windows development environment with anti-cheat or DRM disabled for your own evaluation purposes. When porting your code natively to Apple Silicon and macOS, contact your anti-cheat or DRM provider—most have native Apple Silicon solutions for your native build.
+
+**Game won’t run because it requires Mono, .NET, or the MSVCRT runtime.**
+
+The game porting toolkit’s evaluation environment does not pre-install these runtime support packages. If your game makes use of one of these packages, consider searching for and downloading appropriate installers (.exe or .msi) and installing them to your evaluation environment. Additional runtime installers can be run on your environment by just launching the installer and following its installation instructions:
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 <some-installer.exe>```
+
+And .MSI packages can be installed by launching the Windows uninstaller application and choosing to install a downloaded .msi package:
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 uninstaller```
+
+**Controller issues**
+
+Issues may be fixed by enrolling into the Steam beta. 
+
+
+## Apple AR and Vision Pro Headset
+
+[Back to the Top](#table-of-contents) 
+
+**Important Terms to Know**
+
+ * [Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information.
+ * [Virtual Reality (VR)](https://en.wikipedia.org/wiki/Virtual_reality) is a simulated experience that can be similar to or completely different from the real world. The applications of virtual reality include entertainment (video games), education (medical or military training) and business (virtual meetings).
+ * [Mixed Reality (MR)](https://en.wikipedia.org/wiki/Mixed_reality) is the merging of real and virtual worlds to produce new environments and visualizations, where physical and digital objects co-exist and interact in real time.
+ * [Extended Reality (XR)](https://en.wikipedia.org/wiki/Extended_reality) is a concept referring to all real-and-virtual combined environments and human-machine interactions generated by computer technology and wearables. Including augmented reality (AR), mixed reality (MR) and virtual reality (VR).
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/1eb8474d-ed6b-4c57-a88c-6879db9df78b">
+  <br />
+ Vision Pro Headset. Image Credit: Apple
+</p>
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/4fa96b25-effe-4dc2-a5c9-3c43bcdda285)">
+  <br />
+ Vision Pro Headset with battery pack. Image Credit: Apple
+</p>
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/425ff971-6fa4-4ba9-a594-932367662b23)">
+<br />
+R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
+</p>
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/e1f5d708-87a8-4b45-bfc9-03860cb6ebea">
+  <br />
+ visionOS. Image Credit: Apple
+</p>
+
+* [visionOS](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
+ 
+ **visionOS Resources**
+ 
+ * [visionOS SDK](https://developer.apple.com/visionos/)
+ * [Learn about visionOS](https://developer.apple.com/visionos/learn/)
+ * [Vision Pro compatibility evaluations (available July 2023)](https://d*eveloper.apple.com/visionos/work-with-apple/)
+ * [Vision Pro developer labs (available July 2023)](https://developer.apple.com/visionos/work-with-apple/)
+ * [Vision Pro developer kit (available July 2023)](https://developer.apple.com/visionos/work-with-apple/)
+ 
+
+ **Apple Vision Pro Headset Specs:**
+   
+   * Powered by an M2 chip and **R1 chip(dedicated toward real-time sensor processing for the 12 cameras and 5 sensors on the Vision Pro headset)**.
+   * High-resolution 4K micro OLED displays.
+   * Display refresh rate of [90Hz and supports a special 96Hz mode for 24fps video](https://developer.apple.com/videos/play/wwdc2023/10071/?time=143).
+   * Display Pixel Size will be between 3000 ppi-4000 ppi.
+   * Display offers a brightness of 5,000 nits.
+   * The color gamut is quoted as DCI > 97% DCI.
+   * 96W USB-C power adapter.
+   * A USB-C port for data transfer.
+   * A proprietary magnetic port(MagSafe) to attach the [battery pack](https://www.amazon.com/Apple-MJWY3AM-A-MagSafe-Battery/dp/B099BWY7WT).
+   * Expected battery life of about **2 hours per pack**.
+   * 12 optical cameras and 5 sensors for tracking movements, mapping the environment, and projecting visual experiences. 
+   * WiFi 6E, which adds 6GHz spectrum to the 2.4GHz & 5GHz bands for increased bandwidth and less device interference.
+
+OLEDoS (OLED on Silicon) is a display panel that typically has a diagonal length of less than 1 inch and meets the 3000 ppi-4000 ppi resolution criteria of AR/VR device displays. Existing OLED displays use Low-Temperature-Poly-Silicon (LTPS) or Oxide TFT based on glass substrates. OLEDoS uses silicon-wafer-based CMOS substrates. Using silicon substrates, ultra-fine circuit structures typically used in semiconductor processes can be reproduced, which in turn lead to the creation of ultra-high-resolution OLEDs when organic matter is deposited on them.
+
+ **LG and Sony OLEDoS Display Specs:**
+ 
+   * High-resolution 4K micro OLED displays.
+   * Display Pixel Size will be between 3000 ppi-4000 ppi.
+   * Display offers a brightness of 5,000 nits.
+   * The color gamut is quoted as DCI > 97% DCI.
+
+### LG OLEDoS
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194017317-b1dbda21-5935-47ef-8843-137cc5540b60.png">
+  <br />
+ OLEDoS: Solution for ultra-high resolution
+</p>
+
+Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
+
+### Sony OLEDoS
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194017320-f7631398-a661-401d-9e6f-77d061c8d303.png">
+  <br />
+  Specs for OLED and OLEDoS
+</p>
+
+Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_microdisplay/)
+
 
 #  Unreal Engine Development
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
