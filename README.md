@@ -22,82 +22,81 @@
 1. [Getting Started with Game Consoles](https://github.com/mikeroyal/Game-Console-Dev-Guide#getting-started-with-game-consoles)
 
       - [Xbox](https://github.com/mikeroyal/Game-Console-Dev-Guide#xbox-development)
-      
       - [PlayStation](https://github.com/mikeroyal/Game-Console-Dev-Guide#playstation-development)
-      
       - [Nintendo Switch](https://github.com/mikeroyal/Game-Console-Dev-Guide#nintendo-switch-development)
-      
       - [Steam Deck](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck-development)
-        
       - [Apple Silicon](#development-on-apple-silicon)
 
 2. [Getting Started with Unreal Engine](https://github.com/mikeroyal/Game-Console-Dev-Guide#unreal-engine-development)
 
     - [Unreal Engine Tools](https://github.com/mikeroyal/Game-Console-Dev-Guide#unreal-engine-tools)
-
     - [Unreal Engine Learning Resources](https://github.com/mikeroyal/Game-Console-Dev-Guide#unreal-engine-learning-resources)
     
 3. [Getting Started with Unity](https://github.com/mikeroyal/Game-Console-Dev-Guide#unity-development)
 
    - [Unity Tools](https://github.com/mikeroyal/Game-Console-Dev-Guide#unity-tools)
-
    - [Unity Learning Resources](https://github.com/mikeroyal/Game-Console-Dev-Guide#unity-learning-resources)
-   
-4. [Getting Started with Blender](https://github.com/mikeroyal/Game-Console-Dev-Guide#blender-development)
 
-5. [VS Code Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#vs-code-development)
+4. [Getting Started with Godot Engine](#getting-started-with-godot-engine)
+
+   - [Godot Engine Tools](#godot-engine-tools)
+   - [Godot Learning Resources](#godot-learning-resources)
+   
+5. [Getting Started with Blender](https://github.com/mikeroyal/Game-Console-Dev-Guide#blender-development)
+
+6. [VS Code Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#vs-code-development)
 
     - [VS Code Extensions for Developer Productivity](https://github.com/mikeroyal/Game-Console-Dev-Guide#VS-Code-Extensions-for-Developer-Productivity)
 
-6. [Xcode Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#xcode-development)
+7. [Xcode Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#xcode-development)
 
-7. [Game Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#game-development)
+8. [Game Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#game-development)
 
-8. [Steam Deck Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck)
+9. [Steam Deck Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#steam-deck)
 
-9. [Augmented Reality (AR) & Virtual Reality (VR)](https://github.com/mikeroyal/Game-Console-Dev-Guide#augmented-reality-ar--virtual-reality-vr)
+10. [Augmented Reality (AR) & Virtual Reality (VR)](https://github.com/mikeroyal/Game-Console-Dev-Guide#augmented-reality-ar--virtual-reality-vr)
 
-10. [Vulkan Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#vulkan-development)
+11. [Vulkan Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#vulkan-development)
 
-11. [Metal Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#metal-development)
+12. [Metal Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#metal-development)
 
-12. [DirectX Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#directx-development)
+13. [DirectX Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#directx-development)
 
-13. [OpenGL Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#opengl-development)
+14. [OpenGL Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#opengl-development)
 
-14. [OpenCL Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#opencl-development)
+15. [OpenCL Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#opencl-development)
 
-15. [Computer Vision Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#computer-vision-development)
+16. [Computer Vision Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#computer-vision-development)
 
-16. [Photogrammetry Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#photogrammetry-development)
+17. [Photogrammetry Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#photogrammetry-development)
 
-17. [Geometric optics](https://github.com/mikeroyal/Game-Console-Dev-Guide#Geometric-optics)
+18. [Geometric optics](https://github.com/mikeroyal/Game-Console-Dev-Guide#Geometric-optics)
 
-18. [Autodesk Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#autodesk-development)
+19. [Autodesk Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#autodesk-development)
 
-19. [LiDAR Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#lidar-development)
+20. [LiDAR Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#lidar-development)
 
-20. [Linear Algebra](https://github.com/mikeroyal/Game-Console-Dev-Guide#linear-algebra)
+21. [Linear Algebra](https://github.com/mikeroyal/Game-Console-Dev-Guide#linear-algebra)
 
-21. [Algorithms](https://github.com/mikeroyal/Game-Console-Dev-Guide#algorithms)
+22. [Algorithms](https://github.com/mikeroyal/Game-Console-Dev-Guide#algorithms)
 
-22. [Machine Learning](https://github.com/mikeroyal/Game-Console-Dev-Guide#machine-learning)
+23. [Machine Learning](https://github.com/mikeroyal/Game-Console-Dev-Guide#machine-learning)
 
-23. [Deep Learning](https://github.com/mikeroyal/Game-Console-Dev-Guide#deep-learning)
+24. [Deep Learning](https://github.com/mikeroyal/Game-Console-Dev-Guide#deep-learning)
 
-24. [CUDA Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#cuda-development)
+25. [CUDA Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#cuda-development)
 
-25. [MATLAB Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#matlab-development)
+26. [MATLAB Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#matlab-development)
 
-26. [C/C++ Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#cc-development)
+27. [C/C++ Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#cc-development)
 
-27. [Python Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#python-development)
+28. [Python Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#python-development)
 
-28. [Lua Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#lua-development)
+29. [Lua Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#lua-development)
 
-29. [GPU Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#GPU-development)
+30. [GPU Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#GPU-development)
 
-30. [SSD Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#SSD-development)
+31. [SSD Development](https://github.com/mikeroyal/Game-Console-Dev-Guide#SSD-development)
 
       - [System Memory](https://github.com/mikeroyal/Game-Console-Dev-Guide#System-memory)
       - [SSD Interfaces](https://github.com/mikeroyal/Game-Console-Dev-Guide#SSD-interfaces)
@@ -977,6 +976,95 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
 
 [Game Design and Development Specialization Course from Coursera](https://www.coursera.org/specializations/game-development)
 
+
+# Getting Started with Godot Engine
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/147890939-356a7e63-42d3-448c-9b53-2bc2e412e461.png">
+  <br />
+</p>
+
+[Godot Engine](https://godotengine.org/) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that you can focus on making games without having to reinvent the wheel. Checkout the [Godot Engine Documentation](https://docs.godotengine.org/) for moe info.
+
+ * **[If you would like to Donate to the Godot Project](https://www.patreon.com/godotengine)**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/104788134-3f85e980-5746-11eb-94c4-d97165ee888b.jpeg">
+  <br />
+  Godot Engine
+</p>
+
+[Godot Asset Library](https://godotengine.org/asset-library/asset)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/147890951-0aa968e8-7651-4536-9148-afa40c7fea4f.png">
+  <br />
+  Godot Asset Library
+</p>
+
+[GDNative](https://docs.godotengine.org/en/latest/tutorials/scripting/gdnative/what_is_gdnative.html#what-is-gdnative) is a Godot-specific technology that lets the engine interact with native [shared libraries](https://en.wikipedia.org/wiki/Library_(computing)#Shared_libraries) at run-time. You can use it to run native code without compiling it with the engine. GDNative is not a scripting language and has no relation to [GDScript](https://docs.godotengine.org/en/latest/tutorials/scripting/gdscript/gdscript_basics.html#doc-gdscript).
+
+## Godot Engine Tools
+
+[Godot Web Editor](https://editor.godotengine.org/releases/latest/) is a tool that allows you to open and edit your Godot project in the web browser.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Game-Console-Dev-Guide/assets/45159366/b0aab63f-7a11-4340-886e-dcc48f9f0f91">
+  <br />
+  Godot Web Editor
+</p>
+
+[Godot Tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools) is a VSCode extension that provides a complete set of tools to code games with Godot Engine in Visual Studio Code.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Game-Console-Dev-Guide/assets/45159366/0c7171b4-6d48-4380-8714-eb00b321a71f">
+  <br />
+</p>
+
+[Pixelorama](https://github.com/Orama-Interactive/Pixelorama/releases/tag/v0.11) is a free and open source pixel art editor, proudly created with the Godot Engine, by Orama Interactive. Whether you want to make animated pixel art, game graphics, tiles and any kind of pixel art you want, Pixelorama has you covered with its variety of tools and features. Available on Windows, Linux, macOS and the Web.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Game-Console-Dev-Guide/assets/45159366/503055d2-31bb-459f-aca8-a96dec0a864e">
+  <br />
+  Pixelorama
+</p>
+
+
+[Unidot Importer](https://github.com/V-Sekai/unidot_importer) is a Unity compatibility layer and .unitypackage importer for Godot 4.x.
+
+[Dialogic 2.0](https://dialogic.coppolaemilio.com/) is a tool that creates dialogs, characters and scenes to display conversations in your Godot games. 
+
+[GodotSteam](https://github.com/CoaguCo-Industries/GodotSteam) is an open-source and fully functional Steamworks SDK / API module and plug-in for the Godot Game Engine. 
+
+[Supported languages for Godot Engine](https://docs.godotengine.org/en/latest/tutorials/scripting/gdnative/what_is_gdnative.html#supported-languages)
+
+**Community supported languages for Godot Engine**
+
+The bindings below are developed and maintained by the community (may not be production-ready):
+
+ * [Python](https://github.com/touilleMan/godot-python)
+ * [Rust](https://github.com/godot-rust/godot-rust)
+ * [Kotlin](https://github.com/utopia-rise/godot-kotlin)
+ * [D](https://github.com/godot-d/godot-d)
+ * [Nim](https://github.com/pragmagic/godot-nim)
+ 
+
+## Godot Learning Resources
+
+ * [Introduction to Godot Engine](https://docs.godotengine.org/en/latest/getting_started/introduction/index.html#introduction)
+ * [Godot Engine Education](https://godotengine.org/education/)
+ * [Godot Engine Community Tutorials & Resources](https://docs.godotengine.org/en/stable/community/tutorials.html)
+ * [Godot debugging tools](https://docs.godotengine.org/en/stable/tutorials/scripting/debug/overview_of_debugging_tools.html)
+ * [Godot Engine GitHub](https://github.com/godotengine)
+ * [Awesome-Godot  GitHub](https://github.com/godotengine/awesome-godot)
+ * [Learn Game Development · Godot Tutorials](https://godottutorials.com/)
+ * [Learn to Make Games · GDQuest](https://www.gdquest.com/)
+ * [Learn Godot Game Development · GameDev Academy](https://gamedevacademy.org/complete-course/)
+ * [Godot Game Engine - The Complete Course · Udemy](https://www.udemy.com/course/learngodot/)
+ * [Learn Godot for Game Development · freeCodeCamp.org](https://www.freecodecamp.org/news/learn-godot-for-game-development/)
+
 # Blender Development
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
@@ -987,7 +1075,7 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
 
 ## Blender Learning Resources
 
-[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. [Independent Blender LTS support and services for enterprises](https://www.blender.org/press/canonical-offering-blender-support/) are available now via [Canonical](https://canonical.com/)(makers of the Ubuntu Advanced platform).
+[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. For those on Linux there's an [Independent Blender LTS support and services for enterprises](https://www.blender.org/press/canonical-offering-blender-support/) are available now via [Canonical](https://canonical.com/)(makers of the Ubuntu Advanced platform).
 
 [Blender 2.93 Reference Manual](https://docs.blender.org/manual/en/latest/index.html)
 
