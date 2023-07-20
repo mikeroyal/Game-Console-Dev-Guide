@@ -785,47 +785,38 @@ Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_micro
 ## Unreal Engine Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
-[How to migrate your Unreal Engine 4 projects to Unreal Engine 5 Early Access quickly and smoothly](https://docs.unrealengine.com/5.0/en-US/MigrationGuide/)
+* [How to migrate your Unreal Engine 4 projects to Unreal Engine 5 Early Access quickly and smoothly](https://docs.unrealengine.com/5.0/en-US/MigrationGuide/)
 
-[Unreal Engine Documentation](https://docs.unrealengine.com/en-US/)
+* [Unreal Engine Documentation](https://docs.unrealengine.com/en-US/)
 
-[Unreal Engine Forums](https://forums.unrealengine.com/)
+* [Unreal Engine Forums](https://forums.unrealengine.com/)
 
-[Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-us/Programming/Development/VisualStudioSetup)
+* [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-us/Programming/Development/VisualStudioSetup)
 
-[Unreal Engine Performance and Profiling](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/PerformanceAndProfiling/)
+* [Unreal Engine Performance and Profiling](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/PerformanceAndProfiling/)
 
-[Unreal Engine C++ API Reference](https://docs.unrealengine.com/4.27/en-US/API/index.html)
+* [Unreal Engine C++ API Reference](https://docs.unrealengine.com/4.27/en-US/API/index.html)
 
-[Unreal Engine Blueprint API Reference](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/index.html)
+* [Unreal Engine Blueprint API Reference](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/index.html)
 
-[Unreal Engine Python API Reference](https://docs.unrealengine.com/4.27/en-US/PythonAPI/index.html)
+* [Unreal Engine Python API Reference](https://docs.unrealengine.com/4.27/en-US/PythonAPI/index.html)
 
-[Unreal Engine Authorized Training Program](https://www.unrealengine.com/en-US/training-partners)
+* [Unreal Engine Authorized Training Program](https://www.unrealengine.com/en-US/training-partners)
 
-[Unreal Engine for education](https://www.unrealengine.com/en-US/education/)
+* [Unreal Engine for education](https://www.unrealengine.com/en-US/education/)
 
-[Unreal Engine Training & Simulation](https://www.unrealengine.com/en-US/industry/training-simulation)
+* [Unreal Engine Training & Simulation](https://www.unrealengine.com/en-US/industry/training-simulation)
 
-[Unreal Engine | NVIDIA Developer](https://developer.nvidia.com/unrealengine)
+* [Unreal Engine | NVIDIA Developer](https://developer.nvidia.com/unrealengine)
 
-[Autodesk for Games](https://www.autodesk.com/campaigns/autodesk-for-games)
+* [Autodesk for Games](https://www.autodesk.com/campaigns/autodesk-for-games)
 
-[Getting Started with DirectX 12 Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)
+* [Getting Started with DirectX 12 Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)
 
-[Getting Started with Vulkan](https://www.khronos.org/vulkan/)
+* [Getting Started with Vulkan](https://www.khronos.org/vulkan/)
 
-[Getting Started with Apple Metal](https://developer.apple.com/metal/)
+* [Getting Started with Apple Metal](https://developer.apple.com/metal/)
 
-[Game Design Online Courses from Udemy](https://www.udemy.com/courses/Design/Game-Design/)
-
-[Game Design Online Courses from Skillshare](https://www.skillshare.com/browse/game-design)
-
-[Learn Game Design with Online Courses and Classes from edX](https://www.edx.org/learn/game-design)
-
-[Game Design Courses from Coursera](https://www.coursera.org/courses?query=game%20design)
-
-[Game Design and Development Specialization Course from Coursera](https://www.coursera.org/specializations/game-development)
 
 # Unity Development
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
@@ -940,41 +931,39 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
 ## Unity Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
-[Unity Knowledge Base](https://support.unity.com/hc/en-us) is a library of articles that helps you troubleshoot common problems, whether it’s creating an account, importing assets, or baking a scene.
+* [Unity Knowledge Base](https://support.unity.com/hc/en-us) is a library of articles that helps you troubleshoot common problems, whether it’s creating an account, importing assets, or baking a scene.
 
-[Unity Forum](https://forum.unity.com/)
+* [Unity Forum](https://forum.unity.com/)
 
-[Unity Issue Tracker](https://issuetracker.unity3d.com/)
+* [Unity Issue Tracker](https://issuetracker.unity3d.com/)
 
-[Unity Certifications](https://unity.com/products/unity-certifications)
+* [Unity Certifications](https://unity.com/products/unity-certifications)
 
-[Learn game development with Unity](https://learn.unity.com/courses)
+* [Learn game development with Unity](https://learn.unity.com/courses)
 
-[Unity Courses, Training, and Lessons on Udemy](https://www.udemy.com/topic/unity/)
+* [Unity Courses, Training, and Lessons on Udemy](https://www.udemy.com/topic/unity/)
 
-[Learn Unity 3D with Online Courses and Lessons on edX](https://www.edx.org/learn/unity-3d)
+* [Learn Unity 3D with Online Courses and Lessons on edX](https://www.edx.org/learn/unity-3d)
 
-[Unity Certified Programmer Exam Preparation on Coursera](https://www.coursera.org/specializations/unity-certified-programmer)
+* [Unity Certified Programmer Exam Preparation on Coursera](https://www.coursera.org/specializations/unity-certified-programmer)
 
-[Unity Courses, Training, and Lessons on Coursera](https://www.coursera.org/courses?query=unity&page=3&index=test_skills_update_prod_all_products_term_optimization)
+* [Unity Courses, Training, and Lessons on Coursera](https://www.coursera.org/courses?query=unity&page=3&index=test_skills_update_prod_all_products_term_optimization)
 
-[Autodesk for Games](https://www.autodesk.com/campaigns/autodesk-for-games)
+* [Autodesk for Games](https://www.autodesk.com/campaigns/autodesk-for-games)
 
-[Getting Started with DirectX 12 Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)
+* [Getting Started with DirectX 12 Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)
 
-[Getting Started with Vulkan](https://www.khronos.org/vulkan/)
+* [Getting Started with Vulkan](https://www.khronos.org/vulkan/)
 
-[Getting Started with Apple Metal](https://developer.apple.com/metal/)
+* [Getting Started with Apple Metal](https://developer.apple.com/metal/)
 
-[Game Design Online Courses from Udemy](https://www.udemy.com/courses/Design/Game-Design/)
+* [Game Design Online Courses from Udemy](https://www.udemy.com/courses/Design/Game-Design/)
 
-[Game Design Online Courses from Skillshare](https://www.skillshare.com/browse/game-design)
+* [Game Design Online Courses from Skillshare](https://www.skillshare.com/browse/game-design)
 
-[Learn Game Design with Online Courses and Classes from edX](https://www.edx.org/learn/game-design)
+* [Learn Game Design with Online Courses and Classes from edX](https://www.edx.org/learn/game-design)
 
-[Game Design Courses from Coursera](https://www.coursera.org/courses?query=game%20design)
-
-[Game Design and Development Specialization Course from Coursera](https://www.coursera.org/specializations/game-development)
+* [Game Design Courses from Coursera](https://www.coursera.org/courses?query=game%20design)
 
 
 # Getting Started with Godot Engine
@@ -1077,35 +1066,33 @@ The bindings below are developed and maintained by the community (may not be pro
 
 [Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. For those on Linux there's an [Independent Blender LTS support and services for enterprises](https://www.blender.org/press/canonical-offering-blender-support/) are available now via [Canonical](https://canonical.com/)(makers of the Ubuntu Advanced platform).
 
-[Blender 2.93 Reference Manual](https://docs.blender.org/manual/en/latest/index.html)
+* [Blender Documentation](https://docs.blender.org/)
 
-[Blender Documentation](https://docs.blender.org/)
+* [Blender Foundation](https://www.blender.org/foundation/)
 
-[Blender Foundation](https://www.blender.org/foundation/)
+* [Blender Community Fourm](https://devtalk.blender.org/)
 
-[Blender Community Fourm](https://devtalk.blender.org/)
+* [Blender Foundation Certification Training](https://www.blender.org/certification/)
 
-[Blender Foundation Certification Training](https://www.blender.org/certification/)
+* [Blender Cloud Courses](https://cloud.blender.org/courses)
 
-[Blender Cloud Courses](https://cloud.blender.org/courses)
+* [Blender Institute](https://www.blender.org/institute/)
 
-[Blender Institute](https://www.blender.org/institute/)
+* [Blender Demo Project files](https://www.blender.org/download/demo-files/)
 
-[Blender Demo Project files](https://www.blender.org/download/demo-files/)
+* [Blender YouTube Tutorials and Demos](https://www.youtube.com/user/BlenderFoundation)
 
-[Blender YouTube Tutorials and Demos](https://www.youtube.com/user/BlenderFoundation)
+* [Blender Donations & Sponsors](https://www.blender.org/foundation/donation-payment/)
 
-[Blender Donations & Sponsors](https://www.blender.org/foundation/donation-payment/)
+* [Blender Education](https://www.blender.org/get-involved/)
 
-[Blender Education](https://www.blender.org/get-involved/)
+* [Blender Network](https://www.blendernetwork.org/)
 
-[Blender Network](https://www.blendernetwork.org/)
+* [Blender Courses from Udemy](https://www.udemy.com/topic/blender/)
 
-[Blender Courses from Udemy](https://www.udemy.com/topic/blender/)
+* [BlenderNation](https://www.blendernation.com/category/blender/add-ons/)
 
-[BlenderNation](https://www.blendernation.com/category/blender/add-ons/)
-
-[Blender Market(The indie market for Blender creators)](https://www.blendermarket.com/categories/scripts-and-addons)
+* [Blender Market(The indie market for Blender creators)](https://www.blendermarket.com/categories/scripts-and-addons)
 
 ## Blender Tools and Addons
 
@@ -1116,13 +1103,13 @@ The bindings below are developed and maintained by the community (may not be pro
   <br />
 </p>
 
-Including:
+**Including:**
 
-    - Image(JPEG, JPEG2000, PNG, TARGA, OpenEXR, DPX, Cineon, Radiance HDR, SGI Iris, TIFF)
+- Image(JPEG, JPEG2000, PNG, TARGA, OpenEXR, DPX, Cineon, Radiance HDR, SGI Iris, TIFF)
 
-    - Video(AVI, MPEG and Quicktime (on MacOS)).
+- Video(AVI, MPEG and Quicktime (on MacOS)).
 
-    - 3D(Alembic, 3D Studio (3DS), COLLADA (DAE), Filmbox (FBX), Autodesk (DXF), Wavefront (OBJ), DirectX (x), Lightwave (LWO), Motion Capture (BVH), SVG, Stanford   PLY, STL, VRML, VRML97, X3D).
+- 3D(Alembic, 3D Studio (3DS), COLLADA (DAE), Filmbox (FBX), Autodesk (DXF), Wavefront (OBJ), DirectX (x), Lightwave (LWO), Motion Capture (BVH), SVG, Stanford   PLY, STL, VRML, VRML97, X3D).
 
 
 [Eevee](https://docs.blender.org/manual/en/latest/render/eevee/introduction.html) is Blender’s realtime render engine built using [OpenGL]() focused on speed and interactivity while achieving the goal of rendering [PBR]() materials. Eevee can be used interactively in the 3D Viewport but also produce high quality final renders. Eevee materials are created using the same shader nodes as Cycles, making it easy to render existing scenes. For Cycles users, this makes Eevee work great for previewing materials in realtime.
