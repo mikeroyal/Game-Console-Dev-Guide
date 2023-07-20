@@ -716,12 +716,12 @@ Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_micro
   <br />
 </p>
 
-[Unreal Engine](https://www.unrealengine.com) is a game engine developed by Epic Games with the world's most open and advanced real-time 3D creation tool. Continuously evolving to serve not only its original purpose as a state-of-the-art game engine, today it gives creators across industries the freedom and control to deliver cutting-edge content, interactive experiences, and immersive virtual worlds. Get early access to [Unreal Engine 5](https://www.unrealengine.com/unreal-engine-5).
+[Unreal Engine](https://www.unrealengine.com/unreal-engine-5) is a game engine developed by Epic Games with the world's most open and advanced real-time 3D creation tool. Continuously evolving to serve not only its original purpose as a state-of-the-art game engine, today it gives creators across industries the freedom and control to deliver cutting-edge content, interactive experiences, and immersive virtual worlds. 
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/104788122-37c64500-5746-11eb-8f61-48a69b94582d.png">
+ <img src="https://user-images.githubusercontent.com/45159366/162538256-a3390573-88b8-4925-a92e-70a56da951b3.png">
   <br />
-  Unreal Engine
+  Unreal Engine 5 with Big City Sample Project
 </p>
 
 <p align="center">
@@ -731,16 +731,35 @@ Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_micro
 
  Unreal Engine Twinmotion. Source: [Unreal Engine](https://www.unrealengine.com/en-US/blog/twinmotion-2021-1-is-here)
 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/180627376-15ab099e-f433-4e0b-bf29-3ebf48b95fe8.png">
+  <br />
+  Unreal Engine 5 Project browser
+</p>
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/180627379-afa5a3d7-c50a-4d9f-94c8-3b14d39cea36.png">
+  <br />
+  Unreal Engine 5 Vehicle Project Demo
+</p>
+
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/147710656-ea693faf-4ac2-450c-a416-b6cc63a9c524.png">
+ <img src="https://user-images.githubusercontent.com/45159366/172468555-e7f7b4d6-1ba0-4f37-b3dd-f6b17c90b0f1.png">
   <br />
   Unreal Engine Marketplace
 </p>
+
 
 ## Unreal Engine Tools
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
 
 [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) is a complete gameplay scripting system in Unreal Engine based on the concept of using a node-based interface to create gameplay elements from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/180627381-f123e873-909c-410a-887e-51b2ba659439.png">
+  <br />
+ Blueprint Visual Scripting UI 
+</p>
 
 [Datasmith](https://www.unrealengine.com/en-US/datasmith) is a collection of tools and plugins that bring entire pre-constructed scenes and complex assets created in a variety of industry-standard design applications into Unreal Engine.
 
@@ -768,19 +787,47 @@ Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_micro
 
 [Nanite](https://docs.unrealengine.com/5.0/en-US/RenderingFeatures/Nanite/) is Unreal Engine 5's new virtualized geometry system which uses a new internal mesh format and rendering technology to render pixel scale detail and high object counts. It intelligently does work on only the detail that can be perceived and no more.
 
+[Procedural Content Generation Framework (PCG)](https://docs.unrealengine.com/5.2/en-US/procedural-content-generation--framework-in-unreal-engine/) is a toolset for creating your own procedural content inside Unreal Engine. It provides artists and designers the ability to build fast, iterative tools and content of any complexity ranging from asset utilities, such as buildings or biome generation, up to entire worlds. 
+
+[Unreal Engine's VCam system](https://docs.unrealengine.com/5.2/en-US/virtual-cameras-in-unreal-engine/) is a Cine Camera in Unreal Engine that uses a modular component system to manipulate camera data and output the final results to a variety of external output devices. In addition, the Virtual Camera system provides its functionality while in the editor and during Play In Editor (PIE) or Standalone Game mode. 
+
+[PolyEd (PolyGroup Edit)](https://docs.unrealengine.com/5.2/en-US/polymodel-category-in-unreal-engine/#polygroupedit) is a tool that includes a suite of operations for editing a mesh with PolyGroups. Common operations such as Extrude, Bevel, Weld, and Bridge are available. Also included are operations that only work with structured PolyGroups, such as Insert Edge Loop and edge loop/ring selection. 
+ 
+[PolyDef](https://docs.unrealengine.com/5.2/en-US/polymodel-category-in-unreal-engine/#polygroupdeformation) is a tool that dynamically alters the shape of a mesh through its PolyGroups. Deformation is an efficient way to reshape a mesh quickly and create organic geometry. 
+
+[nDisplay](https://docs.unrealengine.com/5.2/en-US/ndisplay-overview-for-unreal-engine/) is a tool in Unreal Engine that describes how multiple computers work together in an nDisplay rendering network.
+
 [Unreal Engine Marketplace](https://unrealengine.com/marketplace/en-US/store) is Unreal Engine's Store that has a library Of Textures, Models, Animations, Tutorials, and More for creating amazing 3D projects and games.
 
-[UnrealBuildTool (UBT)](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/UnrealBuildTool) is a tool that manages the process of building UE4 source code across a variety of build configurations.
+[UnrealBuildTool (UBT)](https://docs.unrealengine.com/5.0/en-US/ProductionPipelines/BuildTools/UnrealBuildTool) is a tool that manages the process of building UE4 source code across a variety of build configurations.
 
-[UnrealHeaderTool (UHT)](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/UnrealHeaderTool) is a custom parsing and code-generation tool supporting the UObject system.
-
-[Unreal Online Learning](https://www.unrealengine.com/en-US/onlinelearning-courses) is a free learning platform that offers hands-on video courses and guided learning paths.
+[UnrealHeaderTool (UHT)](https://docs.unrealengine.com/5.0/en-US/ProductionPipelines/BuildTools/UnrealHeaderTool) is a custom parsing and code-generation tool supporting the UObject system.
 
 [AutomationTool](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/AutomationTool) is a generic system used to automate processes, including testing and building games.
 
-[Proxy Geometry Tool](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/ProxyGeoTool/) is a tool-set that was developed as a way to increase your Unreal Engine 4 (UE4) project's performance while keeping the visual quality of your project uneffected.
+[Proxy Geometry Tool](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/ProxyGeoTool/) is a tool-set that was developed as a way to increase your Unreal Engine 4 (UE4) project's performance while keeping the visual quality of your project uneffected.
 
-[Replay System](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/ReplaySystem/) is a tool which can record gameplay for later viewing. This feature is available in all games, from live, multiplayer games played on dedicated servers, to single-player games, and even including Play-In-Editor sessions. At a high level, the Replay system works by using a DemoNetDriver to read data drawn from the built-in replication system, similar to how a NetDriver operates in a live, networked gameplay environment.
+[Quixel Megascans](https://quixel.com/megascans) is a massive online scan library of high-resolution, consistent PBR calibrated surface, vegetation and 3D scans, also including desktop applications for managing, mixing and exporting your downloaded scan data.
+
+[Replay System](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/ReplaySystem/) is a tool which can record gameplay for later viewing. This feature is available in all games, from live, multiplayer games played on dedicated servers, to single-player games, and even including Play-In-Editor sessions. At a high level, the Replay system works by using a DemoNetDriver to read data drawn from the built-in replication system, similar to how a NetDriver operates in a live, networked gameplay environment.
+
+[Take Recorder](https://docs.unrealengine.com/5.0/en-US/record-gameplay-in-unreal-engine/) is a tool that enables the fast iteration of recording performances and quickly reviewing previous takes for virtual production workflows. You can easily record animations from motion capture linked to characters in the level, as well as actual Live Link data for future playback. 
+
+[Cesium for Unreal](https://cesium.com/cesium-for-unreal/) is a tool that brings the 3D geospatial ecosystem to Unreal Engine. By combining a high-accuracy full-scale WGS84 globe, open APIs and open standards for spatial indexing such as 3D Tiles, and cloud-based real-world content from Cesium ion with Unreal Engine, this project enables a new era of 3D geospatial software.
+
+[Unreal Engine Live-streaming Toolkit](https://offworld.live/products/unreal-engine-live-streaming-toolkit) is a Live-streaming Toolkit for  video, alpha and audio (Viewport, Cinecam, 360 Camera) via RTMP/ RTSP/ SRT/ NDI/ Spout/ Virtual Webcam plus direct display and window capture. [Available in Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/product/directx-12-livestream-to-spout-obs-no-capture-card-ndi-required)
+
+[HttpGPT](https://github.com/lucoiso/UEHttpGPT/releases) is an Unreal Engine 5 plugin that facilitates integration with OpenAI's GPT based services (ChatGPT and DALL-E) through asynchronous REST requests, making it easy for developers to communicate with these services. It also includes Editor Tools to integrate Chat GPT and DALL-E image generation directly in the Engine.
+
+[Substance 3D](https://substance3d.adobe.com/plugins/substance-in-unreal-engine/) is a plugin that enables the use of Substance materials directly in Unreal Engine 5 and Unreal Engine 4. Whether you are working on games, visualization and or deploying across mobile, desktop, or XR, Substance delivers a unique experience with optimized features for enhanced productivity. The runtime currently works for Windows, Mac, and Linux.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/229640938-787dda6c-c50b-45e6-9431-9a0b585d6475.jpeg">
+  <br />
+  Substance 3D
+</p>
+
+Image Credit: [Adobe](https://substance3d.adobe.com/plugins/substance-in-unreal-engine/)
 
 ## Unreal Engine Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Game-Console-Dev-Guide#table-of-contents)
