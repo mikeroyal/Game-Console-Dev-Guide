@@ -1146,7 +1146,7 @@ The bindings below are developed and maintained by the community (may not be pro
 [Blender](https://www.blender.org) comes packed with import/export support for many different programs.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/104788139-401e8000-5746-11eb-9647-058dee01a00e.png">
+<img src="https://github.com/mikeroyal/Game-Console-Dev-Guide/assets/45159366/41c109a8-4b18-414e-9f5f-6ed9c70fbb27">
   <br />
 </p>
 
