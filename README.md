@@ -117,8 +117,10 @@
 
 ## YouTube Tutorials
 
-[Back to the Top](#table-of-contents)
-
+[![New to Game Development? Start Here - Microsoft Game Dev](https://ytcards.demolab.com/?id=7fqMQQlHeKk&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "New to Game Development? Start Here - Microsoft Game Dev")](https://www.youtube.com/watch?v=7fqMQQlHeKk) 
+[![5 Game Development Tips for the Nintendo Switch](https://ytcards.demolab.com/?id=qAiw03bXb3o&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "5 Game Development Tips for the Nintendo Switch")](https://www.youtube.com/watch?v=qAiw03bXb3o) 
+[![Game Builder Garage - Nintendo Switch](https://ytcards.demolab.com/?id=SXG4KdstVw4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Builder Garage - Nintendo Switch")](https://www.youtube.com/watch?v=SXG4KdstVw4) 
+[![Development Without a Dev-Kit](https://ytcards.demolab.com/?id=Nn2Sjmkv6u0&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Development Without a Dev-Kit")](https://www.youtube.com/watch?v=Nn2Sjmkv6u0) 
 [![How to Create a Game in Unreal Engine 5 - UE5 Beginner Tutorial](https://ytcards.demolab.com/?id=1XjgLKrb4_M&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to Create a Game in Unreal Engine 5 - UE5 Beginner Tutorial")](https://www.youtube.com/watch?v=1XjgLKrb4_M)
 [![Unreal Engine 5 Beginner Tutorial - UE5 Starter Course](https://ytcards.demolab.com/?id=k-zMkzmduqI&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course")](https://www.youtube.com/watch?v=k-zMkzmduqI)
 [![EVERYTHING NEW IN UNREAL ENGINE 5.3](https://ytcards.demolab.com/?id=FOi1sktOuPg&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "EVERYTHING NEW IN UNREAL ENGINE 5.3")](https://www.youtube.com/watch?v=FOi1sktOuPg)
